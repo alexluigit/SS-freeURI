@@ -90,7 +90,6 @@ func generateURLs(nodes []ssnode) []string {
 		ssURI := "ss://" + encoded + "@" + nodes[i].Addr + ":" + strconv.Itoa(nodes[i].Port) + "/?#" + utf8Tag
 		URLs = append(URLs, ssURI)
 	}
-
 	return URLs
 }
 
