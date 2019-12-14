@@ -62,7 +62,7 @@ func testNodeSpeed(nodes []ssnode) []ssnode {
 		if err != nil {
 			nodes[i].Time = 10000
 		} else {
-			timeReg := regexp.MustCompile(`stddev = .*?\/.*?\/(\d+).*`)
+			timeReg := regexp.MustCompile(`stddev = .*?\/(\d+).\d+\/.*`)
 			nodes[i].Time, err = strconv.Atoi(string(timeReg.FindSubmatch(out)[1]))
 		}
 	}
