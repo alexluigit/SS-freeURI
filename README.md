@@ -13,7 +13,7 @@ go build
 #### Or download compiled binary
 [Release]https://github.com/goFindAlex/SS-freeURI/releases
 ## Notice
-- For v1.0, you will need to use proxy listen on "http://127.0.0.1/1087" (which is default setting in ShadowsocksX-NG).
+- For v1.0, you will need to use proxy listen on "http://127.0.0.1:1087" (which is default setting in ShadowsocksX-NG).
 - Create "/Users/username/Desktop/nodes.txt" after running 
 ## Feature
 - The URIs in nodes.txt can be imported to ShadowsocksX-NG directly through "Import Server URIs..."
