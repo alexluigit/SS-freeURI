@@ -1,5 +1,5 @@
 # SS-freeURI
-A Shadowsocks free URI generator.
+A Shadowsocks free URI generator written in Go.
 ## Usage
 #### Run directly
 ```shell
